@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const myid = [''];
+const myid = ['469102784789348362'];
 const prefix = ['.'];
 
 client.on('ready', () => {
@@ -89,7 +89,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send('#rep <@286088294234718209>')
+        message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
 
