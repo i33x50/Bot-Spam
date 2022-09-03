@@ -1,12 +1,12 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const myid = ['469102784789348362'];
-const prefix = ['.'];
+const myid = ['639884259414245417'];
+const prefix = ['#'];
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`Credit Farmm - Script By : Mero `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -25,19 +25,19 @@ client2.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === prefix+'راتب'){
+    if(message.content === prefix+'d'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === prefix+'مبلغ'){
+    if(message.content === prefix+'c'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === prefix+'ريب'){
+    if(message.content === prefix+'r'){
         message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
@@ -76,19 +76,19 @@ if (!rank) return message.reply(' ')
 });
 
 client2.on('message', message => {
-    if(message.content === prefix+'راتب'){
+    if(message.content === prefix+'d'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === prefix+'مبلغ'){
+    if(message.content === prefix+'c'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === prefix+'ريب'){
+    if(message.content === prefix+'r'){
         message.channel.send("#rep "+"<@" + myid + ">")
     }
 });
