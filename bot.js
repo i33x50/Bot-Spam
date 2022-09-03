@@ -18,7 +18,7 @@ client.on('ready', () => {
 
 client2.on('ready', () => {
    console.log(`----------------`);
-   console.log(`2 Account Online ✩' `);
+   console.log(`1 Account is Online ✩' `);
    console.log(`----------------`);
 });
 
@@ -47,7 +47,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**هلا والله يا شباب كيف حالكم ان شاء الله تكونو بخير .. Hello guys ! how are you? I hope you be fine!!**[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -98,7 +98,7 @@ if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**هلا والله يا شباب كيف حالكم ان شاء الله تكونو بخير .. Hello guys ! how are you? I hope you be fine!! **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -128,4 +128,4 @@ if (!rank) return message.reply(' ')
 
 
 client.login(process.env.TOKEN);
-client2.login(process.env.TOKEN2);
+
